@@ -1,0 +1,76 @@
+/* Styles for Contact-me buttons*/
+.contact-me {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+}
+.contact-me a:hover,
+.contact-me a:focus {
+  color: var(--plyr-color-main);
+}
+.contact-me-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  text-align: center;
+  line-height: center;
+}
+.contact-me-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-dark);
+  color: var(--border-color-light);
+}
+.contact-me-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--plyr-color-main);
+  color: var(--green-dark);
+}
+.contact-me-phone {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+.contact-me-phone:hover,
+.contact-me-phone:focus {
+  text-decoration: underline;
+  color: white;
+}
+.contact-me-email {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+.contact-me-item2 .contact-me-email:hover,
+.contact-me-item2 .contact-me-email:focus {
+  text-decoration: underline;
+  color: var(--green-dark);
+}
+.contact-me-phone-icon {
+  fill: var(--plyr-color-main);
+}
+.contact-me-mail-icon {
+  fill: var(--green-dark);
+}
+@media screen and (min-width: 480px) {
+  .contact-me {
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact-me {
+    height: 52px;
+  }
+}

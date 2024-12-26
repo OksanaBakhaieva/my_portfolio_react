@@ -1,9 +1,11 @@
+import css from './Hero.module.css';
+
 function Hero() {
     return (
         <>
-            <section className="hero-section"> 
-                <div className="hero-container">
-                    <h1 className="hero-title">Full-Stack Developer:<br />Turning Ideas into Code</h1>
+            <section className={css["hero-section"]}> 
+                <div className={css["hero-container"]}>
+                    <h1 className={css["hero-title"]}>Full-Stack Developer:<br />Turning Ideas into Code</h1>
                 </div>
             </section>
         </>

@@ -4,7 +4,7 @@ import HeaderTop from "./HeaderTop";
 function Header() {
     return (
         <>
-            <header className="header-section" id="header">
+            <header id="header">
                 <HeaderTop />
                 <HeaderBottom />
             </header> 
