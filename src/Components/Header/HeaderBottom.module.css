@@ -1,0 +1,108 @@
+/* Styles for header-bottom section  */
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  color: var(--border-color-light);
+  border-bottom: 1px solid var(--green-light);
+  background-color: transparent;
+  height: 52px;
+  background-color: var(--green-medium);
+}
+.header-logo {
+  font-family: var(--ff-ernestandemily);
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--plyr-color-main);
+}
+.header-logo:hover {
+  color: var(--plyr-color-main);
+}
+.header-nav {
+  display: none;
+}
+.header-tel {
+  display: none;
+}
+.header-socials-link {
+  display: none;
+}
+.menu-open-button {
+  width: 36px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-open-icon {
+  stroke: var(--border-color-light);
+  transition: all 250ms;
+}
+.menu-open-icon:hover,
+.menu-open-icon:focus {
+  stroke: var(--plyr-color-main);
+}
+@media screen and (min-width: 768px) {
+  .header-bottom {
+    padding: 24px;
+  }
+  .header-right-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-logo {
+    font-size: 42px;
+  }
+  .header-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+  }
+  .header-socials-link {
+    display: block;
+    fill: var(--border-color-light);
+    transition: all 250ms;
+    background: transparent;
+  }
+  .header-socials-link:hover,
+  .header-socials-link:focus {
+    fill: var(--plyr-color-main);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bottom {
+    height: auto;
+    padding: 32px;
+  }
+  .header-left-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+  }
+  .header-logo {
+    font-size: 62px;
+  }
+  .header-nav {
+    display: block;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .nav-link:not(:last-child) {
+    margin-right: 25px;
+  }
+  .menu-open-button {
+    display: none;
+  }
+}

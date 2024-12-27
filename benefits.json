@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "fa-solid fa-puzzle-piece",
+    "title": "Custom Solutions",
+    "description": "Tailored, scalable solutions aligned with your unique goals"
+  },
+  {
+    "id": "2",
+    "icon": "fa-solid fa-magnifying-glass",
+    "title": "Attention to Detail",
+    "description": "Precision, performance, and responsive design are prioritized in every line of code"
+  },
+  {
+    "id": "3",
+    "icon": "fa-regular fa-handshake",
+    "title": "Collaboration & Transparency",
+    "description": "Clear communication ensures the project meets and exceeds expectations"
+  },
+  {
+    "id": "4",
+    "icon": "fa-solid fa-star",
+    "title": "Commitment to Excellence",
+    "description": "High-quality results delivered on time and within budget, from concept to completion"
+  }
+]

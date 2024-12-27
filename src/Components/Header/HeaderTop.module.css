@@ -1,0 +1,68 @@
+/* Styles for header-top section  */
+.header-top {
+  background-color: var(--green-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--border-color-light);
+  height: 46px;
+}
+.header-dropdown-list {
+  display: none;
+}
+.header-text {
+  font-size: 10px;
+}
+.header-span {
+  text-transform: uppercase;
+}
+.header-span:first-child {
+  text-decoration: underline;
+}
+.header-phone {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header-top {
+    padding: 0 32px;
+  }
+  .header-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-dropdown-list {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+  .header-earth {
+    fill: var(--border-color-light);
+  }
+  #header-choose-language {
+    border: none;
+    color: var(--border-color-light);
+    background-color: var(--green-light);
+    padding: 0;
+  }
+  .header-text {
+    font-size: 16px;
+  }
+  .header-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    fill: var(--plyr-color-main);
+    font-style: normal;
+  }
+  .header-phone:hover,
+  .header-phone:focus {
+    text-decoration: underline;
+  }
+}

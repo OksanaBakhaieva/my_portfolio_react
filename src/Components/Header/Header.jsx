@@ -3,12 +3,10 @@ import HeaderTop from "./HeaderTop";
 
 function Header() {
     return (
-        <>
             <header id="header">
                 <HeaderTop />
                 <HeaderBottom />
             </header> 
-        </>
     )
 }
 

@@ -2,9 +2,7 @@ import css from './ContactMe.module.css';
 
 function ContactMe() {
     return (
-        <>
             <div className={css["contact-me"]}>
-                <h2 className={css["visually-hidden"]}>Contact me</h2>
                 <ul className={css["contact-me-list"]}>
                     <li className={css["contact-me-item1"]}>
                         <a className={css["contact-me-phone"]} href="tel:447748300645">
@@ -22,7 +20,6 @@ function ContactMe() {
                     </li>
                 </ul>
             </div>
-        </>
     )
 }
 

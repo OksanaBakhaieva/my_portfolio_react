@@ -1,8 +1,7 @@
-import css from './Header.module.css';
+import css from './HeaderTop.module.css';
 
 function HeaderTop() {
     return (
-        <>
             <div className={css["header-top"]}>
                 <form className={css["header-dropdown-list"]}>
                     <label htmlFor="header-choose-language">
@@ -25,7 +24,6 @@ function HeaderTop() {
                         + (44) 77 48 300 xxx</a>
                 </address>    
             </div>
-        </>
     )
 }
 
