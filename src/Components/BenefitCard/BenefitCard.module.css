@@ -1,10 +1,10 @@
-.benefits-item-title {
+.item_title {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 6px;
   color: white;
 }
-.benefits-item-icon {
+.item_icon {
   border-radius: 50%;
   border: none;
   background-color: var(--green-light);
@@ -15,12 +15,11 @@
   color: white;
   margin-bottom: 10px;
   box-shadow: 2px 2px 2px 2px var(--green-dark);
-}
-.benefits-item-icon {
   color: var(--plyr-color-main);
 }
+
 @media screen and (min-width: 768px) {
-  .benefits-item-title {
+  .item_title {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 6px;

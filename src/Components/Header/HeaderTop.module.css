@@ -1,68 +1,70 @@
-/* Styles for header-top section  */
-.header-top {
+.header_top_container {
   background-color: var(--green-light);
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--border-color-light);
   height: 46px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-.header-dropdown-list {
+.dropdown_list {
   display: none;
 }
-.header-text {
+.text {
   font-size: 10px;
+  text-align: center;
 }
-.header-span {
+.span {
   text-transform: uppercase;
 }
-.header-span:first-child {
+.span:first-child {
   text-decoration: underline;
 }
-.header-phone {
+.phone {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .header-top {
+  .top {
     padding: 0 32px;
   }
-  .header-text {
+  .text {
     font-size: 14px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header-top {
+  .header_top_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .header-dropdown-list {
+  .dropdown_list {
     display: flex;
     gap: 10px;
     padding: 0;
   }
-  .header-earth {
+  .earth {
     fill: var(--border-color-light);
   }
-  #header-choose-language {
+  #choose-language {
     border: none;
     color: var(--border-color-light);
     background-color: var(--green-light);
     padding: 0;
   }
-  .header-text {
+  .text {
     font-size: 16px;
   }
-  .header-phone {
+  .phone {
     display: flex;
     align-items: center;
     gap: 10px;
     fill: var(--plyr-color-main);
     font-style: normal;
   }
-  .header-phone:hover,
-  .header-phone:focus {
+  .phone:hover,
+  .phone:focus {
     text-decoration: underline;
   }
 }

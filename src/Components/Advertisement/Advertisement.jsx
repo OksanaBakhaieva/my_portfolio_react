@@ -2,7 +2,7 @@ import css from './Advertisement.module.css';
 
 function Advertisement() {
     return (
-            <section className={css["advertisement-section"]}>
+            <section className={css.section}>
                 <link
                     xlinkHref="https://fonts.googleapis.com/css?family=Pridi:600"
                     rel="stylesheet"

@@ -1,36 +1,35 @@
-/* Styles for Contact-me buttons*/
-.contact-me {
+.wrapper {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 36px;
 }
-.contact-me a:hover,
-.contact-me a:focus {
+a:hover,
+a:focus {
   color: var(--plyr-color-main);
 }
-.contact-me-list {
+.list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100%;
   text-align: center;
   line-height: center;
 }
-.contact-me-item1 {
+.item1 {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--green-dark);
   color: var(--border-color-light);
 }
-.contact-me-item2 {
+.item2 {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--plyr-color-main);
   color: var(--green-dark);
 }
-.contact-me-phone {
+.phone {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -39,12 +38,12 @@
   width: 100%;
   height: 100%;
 }
-.contact-me-phone:hover,
-.contact-me-phone:focus {
+.phone:hover,
+.phone:focus {
   text-decoration: underline;
   color: white;
 }
-.contact-me-email {
+.email {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -53,24 +52,24 @@
   width: 100%;
   height: 100%;
 }
-.contact-me-item2 .contact-me-email:hover,
-.contact-me-item2 .contact-me-email:focus {
+.item2 .email:hover,
+.item2 .email:focus {
   text-decoration: underline;
   color: var(--green-dark);
 }
-.contact-me-phone-icon {
+.phone_icon {
   fill: var(--plyr-color-main);
 }
-.contact-me-mail-icon {
+.mail_icon {
   fill: var(--green-dark);
 }
 @media screen and (min-width: 480px) {
-  .contact-me {
+  .wrapper {
     height: 44px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .contact-me {
+  .wrapper {
     height: 52px;
   }
 }

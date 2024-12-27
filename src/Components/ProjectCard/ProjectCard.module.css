@@ -1,17 +1,21 @@
-.projects-item-img {
+.item_img {
   max-width: 300px;
   height: auto;
   box-shadow: 0 2px 2px 0 var(--green-medium);
+  margin-top: 16px;
 }
-.projects-item-title {
+.item_title {
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-.projects-item-description {
+.item_description {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-  .projects-item-description {
+  .item_description {
     display: block;
     font-size: 14px;
   }
@@ -19,11 +23,11 @@
 @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 1024px) {
-  .projects-item-img {
-    max-width: 300px;
+  .item_img {
+    max-width: 600px;
     height: auto;
   }
-  .projects-item-description {
+  .item_description {
     display: block;
     font-size: 18px;
   }

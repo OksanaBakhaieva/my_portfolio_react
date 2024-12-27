@@ -1,9 +1,9 @@
-.about-section {
+.section {
   background-color: var(--green-dark);
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.about-container {
+.container {
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
@@ -12,28 +12,28 @@
   justify-content: space-between;
   gap: 20px;
 }
-.about-title {
+.title {
   font-size: 32px;
   line-height: 1;
   color: var(--border-color-light);
   margin-bottom: 32px;
   font-weight: 400;
 }
-.about-text1 {
+.text1 {
   margin-bottom: 20px;
   color: var(--border-color-light);
   line-height: 1.37;
   font-weight: 200;
 }
 
-.about-text2 {
+.text2 {
   margin-bottom: 50px;
   color: var(--border-color-light);
   line-height: 1.37;
   font-weight: 200;
 }
 
-.about-img {
+.img {
   display: block;
   border-radius: 16px;
   margin: 16px auto;
@@ -41,41 +41,41 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-section {
+  .section {
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  .about-container {
+  .container {
     flex-direction: row;
     /* padding: 50px; */
   }
-  .about-text-wrapper {
+  .text_wrapper {
     max-width: 40%;
   }
-  .about-title {
+  .title {
     font-size: 36px;
     line-height: 1;
   }
 
-  .about-text1,
-  .about-text2 {
+  .text1,
+  .text2 {
     font-size: 16px;
   }
 
-  .about-img {
+  .img {
     width: 40%;
     margin: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  .about-title {
+  .title {
     font-size: 44px;
     line-height: 1.11;
     margin-bottom: 36px;
   }
 
-  .about-text1,
-  .about-text2 {
+  .text1,
+  .text2 {
     font-size: 20px;
   }
 }

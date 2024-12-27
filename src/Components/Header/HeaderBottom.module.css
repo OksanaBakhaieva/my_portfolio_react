@@ -1,5 +1,4 @@
-/* Styles for header-bottom section  */
-.header-bottom {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,25 +9,25 @@
   height: 52px;
   background-color: var(--green-medium);
 }
-.header-logo {
+.logo {
   font-family: var(--ff-ernestandemily);
   font-weight: 500;
   font-size: 32px;
   color: var(--plyr-color-main);
 }
-.header-logo:hover {
+.logo:hover {
   color: var(--plyr-color-main);
 }
-.header-nav {
+.nav {
   display: none;
 }
-.header-tel {
+.tel {
   display: none;
 }
-.header-socials-link {
+.socials_link {
   display: none;
 }
-.menu-open-button {
+.menu_open_button {
   width: 36px;
   height: 24px;
   padding: 0;
@@ -38,71 +37,71 @@
   justify-content: center;
   align-items: center;
 }
-.menu-open-icon {
+.menu_open_icon {
   stroke: var(--border-color-light);
   transition: all 250ms;
 }
-.menu-open-icon:hover,
-.menu-open-icon:focus {
+.menu_open_icon:hover,
+.menu_open_icon:focus {
   stroke: var(--plyr-color-main);
 }
 @media screen and (min-width: 768px) {
-  .header-bottom {
+  .bottom {
     padding: 24px;
   }
-  .header-right-wrapper {
+  .right_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
   }
-  .header-logo {
+  .logo {
     font-size: 42px;
   }
-  .header-socials {
+  .socials {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
     padding: 0;
   }
-  .header-socials-link {
+  .socials_link {
     display: block;
     fill: var(--border-color-light);
     transition: all 250ms;
     background: transparent;
   }
-  .header-socials-link:hover,
-  .header-socials-link:focus {
+  .socials_link:hover,
+  .socials_link:focus {
     fill: var(--plyr-color-main);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header-bottom {
+  .bottom {
     height: auto;
     padding: 32px;
   }
-  .header-left-wrapper {
+  .left_wrapper {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 60px;
   }
-  .header-logo {
+  .logo {
     font-size: 62px;
   }
-  .header-nav {
+  .nav {
     display: block;
   }
-  .nav-link {
+  .nav_link {
     text-transform: uppercase;
     font-size: 20px;
   }
-  .nav-link:not(:last-child) {
+  .nav_link:not(:last-child) {
     margin-right: 25px;
   }
-  .menu-open-button {
+  .menu_open_button {
     display: none;
   }
 }
