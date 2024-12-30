@@ -1,16 +1,12 @@
+import Nav from '../Nav/Nav';
 import css from './HeaderBottom.module.css';
 
 function HeaderBottom() {
     return (
             <div className={css.container}>
-                <p className={css.logo}>Oksana Bakhaieva*</p>
+            <p className={css.logo}>Oksana Bakhaieva*</p>
                 <div className={css.left_wrapper}>
-                    <nav className={css.nav}>
-                        <a className={css.nav_link} href="#about" name="about">About me</a>
-                        <a className={css.nav_link} href="#portfolio" name="portfolio">portfolio</a>
-                        <a className={css.nav_link} href="#benefits" name="benefits">Why create with me</a>
-                        <a className={css.nav_link} href="#footer" name="footer">Contacts</a>
-                    </nav>
+                <Nav />
                 </div>
                 <div className={css.right_wrapper}>
                     <ul className={css.socials}>

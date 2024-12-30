@@ -1,4 +1,5 @@
 import Header from "./Components/Header/Header";
+import "modern-normalize";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import Advertisement from "./Components/Advertisement/Advertisement";

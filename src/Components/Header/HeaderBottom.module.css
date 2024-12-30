@@ -18,9 +18,7 @@
 .logo:hover {
   color: var(--plyr-color-main);
 }
-.nav {
-  display: none;
-}
+
 .tel {
   display: none;
 }
@@ -82,25 +80,11 @@
     height: auto;
     padding: 32px;
   }
-  .left_wrapper {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 60px;
-  }
+
   .logo {
     font-size: 62px;
   }
-  .nav {
-    display: block;
-  }
-  .nav_link {
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .nav_link:not(:last-child) {
-    margin-right: 25px;
-  }
+
   .menu_open_button {
     display: none;
   }
