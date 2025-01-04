@@ -1,7 +1,10 @@
 .section {
+  padding: 0 16px;
   background-color: white;
 }
 .container {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,22 +12,6 @@
   padding-top: 32px;
   padding-bottom: 16px;
   text-align: center;
-}
-.title {
-  order: 2;
-  margin-bottom: 32px;
-  font-size: 32px;
-  line-height: 1;
-  color: var(--green-dark);
-}
-.quote {
-  font-family: var(--ff-ernestandemily);
-  font-size: 24px;
-  order: 1;
-  color: var(--green-light);
-  margin-bottom: 16px;
-  line-height: 0.8;
-  padding-top: 0;
 }
 .gallery {
   order: 3;
@@ -53,10 +40,6 @@
 }
 
 @media screen and (min-width: 480px) {
-  .title {
-    font-size: 36px;
-    line-height: 1.11;
-  }
   .text {
     font-size: 32px;
   }
@@ -81,9 +64,7 @@
     padding-top: 50px;
     padding-bottom: 32px;
   }
-  .title {
-    font-size: 44px;
-  }
+
   .text {
     font-size: 36px;
   }
@@ -98,9 +79,7 @@
   .title {
     font-size: 42px;
   }
-  .quote {
-    font-size: 44px;
-  }
+
   .text {
     font-size: 44px;
     margin-bottom: 36px;

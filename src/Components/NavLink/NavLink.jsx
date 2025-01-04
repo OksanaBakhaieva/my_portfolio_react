@@ -1,9 +1,9 @@
 import css from './NavLink.module.css';
 
-function NavLink({ text }) {
+function NavLink({ text, href }) {
     return (
         <>
-            <h3 className={css.nav_link}>{text}</h3>
+            <a className={css.nav_link} href={href}>{text}</a>
         </>
     )
 }

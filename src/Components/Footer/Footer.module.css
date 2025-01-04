@@ -1,4 +1,6 @@
 .container {
+  width: 100%;
+  margin: 0 auto;
   background-color: var(--green-very-light);
   padding: 32px 16px 80px 16px;
 }

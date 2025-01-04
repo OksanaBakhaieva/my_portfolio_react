@@ -1,4 +1,5 @@
 import img from '../../img/about-me/IMG_2597-1.jpg'
+import Title from '../Title/Title';
 import css from './About.module.css';
 
 function About() {
@@ -6,7 +7,7 @@ function About() {
         <section className={css.section} id="about">
             <div className={css.container}>
                     <div className={css.text_wrapper}>
-                        <h2 className={css.title}>About Me</h2>
+                        <Title variant='primary'>About Me</Title>
                         <p className={css.text1}>
                             Motivated and adaptable software developer with a strong passion for building innovative web and mobile applications. 
                         </p>
