@@ -1,18 +1,25 @@
 import { useState } from 'react';
 import Nav from '../Nav/Nav';
-import css from './HeaderBottom.module.css';
 import Modal from '../Modal/Modal';
+import css from './HeaderBottom.module.css';
+
 
 function HeaderBottom() {
     const [isModalOpen, setModalOpen] = useState(false);
-    const openModal = () => setModalOpen(true);
-    const closeModal = () => setModalOpen(false);
 
+    function openModal() {
+        return setModalOpen(true);
+    };
+
+    function closeModal() {
+        return setModalOpen(false);
+    };
+   
     return (
             <div className={css.container}>
             <p className={css.logo}>Oksana Bakhaieva*</p>
                 <div className={css.left_wrapper}>
-                    <Nav />
+                    <Nav variant='header'/>
                 </div>
                 <div className={css.right_wrapper}>
                     <ul className={css.socials}>
@@ -43,9 +50,7 @@ function HeaderBottom() {
                             <use  href="/img/icons.svg#icon-toggle"></use>
                         </svg>
                 </button>
-                <Modal isOpen={isModalOpen} onClose={closeModal}>
-                    <Nav />
-                </Modal>
+                <Modal isOpen={isModalOpen} onClose={closeModal} />
                 </div>
             </div>
     )

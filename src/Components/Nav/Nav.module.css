@@ -1,5 +1,14 @@
-.nav {
+.header {
   display: none;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.footer {
 }
 @media screen and (min-width: 1024px) {
   .bottom {
