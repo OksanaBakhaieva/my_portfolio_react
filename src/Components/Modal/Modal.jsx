@@ -8,7 +8,7 @@ function Modal({ isOpen, onClose }) {
 
     return (
         <div className={css.modal} onClick={onClose}>
-            <div className={css.content} onClick= {(e)=>e.stopPropagation()}>
+            <div className={css.content}>
                 <Nav variant='modal' />
                 <button className={css.close_button} onClick={onClose} type="button" aria-label="modal-close-button">
                 <svg className={css.close_icon} width="16" height="16">
