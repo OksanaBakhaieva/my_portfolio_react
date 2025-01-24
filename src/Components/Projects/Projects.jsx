@@ -7,7 +7,7 @@ function Projects({ projects }) {
     return (
         <section className={css.section} id="projects" aria-labelledby="projects-title">
             <div className={css.container}>
-                <Quote>The only way to do great work is to love what you do. - Albert Einstein</Quote>
+                <Quote>The only way to do great work is to love what you do. - Steve Jobs</Quote>
                 <Title variant='secondary'>Projects</Title>
                 <div className={css.gallery}>
                         <ul className={css.list}>

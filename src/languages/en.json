@@ -1,0 +1,42 @@
+{
+  "about": {
+    "title": "About Me",
+    "text1": "Motivated and adaptable software developer with a strong passion for building innovative web and mobile applications.",
+    "text2": "Experienced with technologies such as ReactJS, Node.js, PHP, MySQL, JavaScript, TypeScript, CSS and Tailwind CSS, I enjoy solving real-world problems and turning ideas into practical solutions.",
+    "text3": "Eager to learn and grow, I am excited to contribute to a collaborative team and take on new challenges while developing my skills."
+  },
+   "advertisement": {
+    "line": "Ready to meet",
+    "line_accent1": "your next",
+    "line_accent2": "developer?",
+    "line_accent3": "Let’s connect!"
+  },
+  "benefits": {
+    "quote": "Your ideas. My expertise",
+    "title": "Why create with me?",
+    "text": "With a focus on delivering custom digital experiences, each project is tailored to bring unique visions to life.",
+    "text_extra": "The approach combines creativity and functionality to develop engaging, user-friendly solutions that ensure a standout presence in the digital landscape."
+  },
+  "contactMe": {
+    "phone": "Talk to me",
+    "email": "Mail me now"
+  },
+  "footer": {
+    "link1": "About me",
+    "link2": "Portfolio",
+    "link3": "Why create with me?"
+  },
+  "headerTop": {
+    "availiable": "Availiable  in",
+    "span_en": "English",
+    "span_ua": "Ukrainain",
+    "span_ru": "Russian"
+  },
+  "hero": {
+    "title1": "Full-Stack Developer:",
+    "title2": "Turning Ideas into Code"
+  },
+  "projects": {
+    "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+  }
+}
