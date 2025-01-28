@@ -1,6 +1,6 @@
 import css from './BenefitCard.module.css';
 
-function BenefitCard({benefit: {icon, title, description}}) {
+function BenefitCard({ icon, title, description }) {
     return (
         <>
             <i className={`${css.item_icon} ${icon}`}></i>

@@ -1,21 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import Title from '../Title/Title';
 import BenefitCard from '../BenefitCard/BenefitCard';
 import Quote from '../Quote/Quote';
 import css from './Benefits.module.css';
 
 
-function Benefits({benefits}) {
+function Benefits({ benefits }) {
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.language; 
+    
     return (
             <section className={css.section} id="benefits">
                 <div className={css.container}>
-                    <Quote>Your ideas. My expertise</Quote>
-                    <Title variant='primary'>Why create with me?</Title>
-                    <p className={css.text}>With a focus on delivering custom digital experiences, each project is tailored to bring unique visions to life.</p>
-                    <p className={css.text_extra}>The approach combines creativity and functionality to develop engaging, user-friendly solutions that ensure a standout presence in the digital landscape.</p>
+                <Quote>{ t('benefits.quote')}</Quote>
+                    <Title variant='primary'>{ t('benefits.title')}</Title>
+                    <p className={css.text}>{ t('benefits.text')}</p>
+                    <p className={css.text_extra}>{ t('benefits.text_extra')}</p>
                     <ul className={css.list}>
-                    {benefits.map((benefit) => (
-                            <li key={benefit.id} className={css.item}>
-                                <BenefitCard benefit={benefit} />
+                        {benefits.map(({id, icon, lang}) => (
+                            <li key={id} className={css.item}>
+                                <BenefitCard
+                                    icon={icon}
+                                    title={lang[currentLang].title}
+                                    description={lang[currentLang].description}
+                                />
                             </li>
                     ))}
                     </ul>

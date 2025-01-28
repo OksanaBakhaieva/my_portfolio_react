@@ -2,25 +2,73 @@
   {
     "id": "1",
     "icon": "fa-solid fa-puzzle-piece",
-    "title": "Custom Solutions",
-    "description": "Tailored, scalable solutions aligned with your unique goals"
+    "lang":{
+      "en": {
+        "title": "Custom Solutions",
+        "description": "Tailored, scalable solutions aligned with your unique goals"
+      },
+      "uk": { 
+          "title": "Індивідуальні рішення",
+          "description": "Рішення, адаптовані до ваших унікальних цілей і масштабовані для зростання"
+      },
+      "ru": { 
+          "title": "Индивидуальные решения",
+          "description": "Адаптированные и масштабируемые решения, соответствующие вашим уникальным целям"
+        }
+      }
   },
   {
     "id": "2",
     "icon": "fa-solid fa-magnifying-glass",
-    "title": "Attention to Detail",
-    "description": "Precision, performance, and responsive design are prioritized in every line of code"
+    "lang": {
+      "en": {
+        "title": "Attention to Detail",
+        "description": "Precision, performance, and responsive design are prioritized in every line of code"
+      },
+      "uk":{
+        "title": "Увага до деталей",
+        "description": "Пріоритет точності, продуктивності та адаптивного дизайну в кожному рядку коду"
+      },
+      "ru": {
+        "title": "Внимание к деталям",
+        "description": "Приоритет точности, производительности и адаптивного дизайна в каждой строке кода"
+      }
+    }
   },
   {
     "id": "3",
     "icon": "fa-regular fa-handshake",
-    "title": "Collaboration & Transparency",
-    "description": "Clear communication ensures the project meets and exceeds expectations"
+   "lang":{
+      "en": {
+        "title": "Collaboration & Transparency",
+        "description": "Clear communication ensures the project meets and exceeds expectations"
+      },
+      "uk":{
+        "title": "Співпраця та прозорість",
+        "description": "Чітке спілкування гарантує, що проєкт відповідає і перевершує очікування"
+      },
+      "ru": {
+        "title": "Сотрудничество и прозрачность",
+        "description": "Четкое общение обеспечивает, что проект соответствует и превосходит ожидания"
+      }
+    }
   },
   {
     "id": "4",
     "icon": "fa-solid fa-star",
-    "title": "Commitment to Excellence",
-    "description": "High-quality results delivered on time and within budget, from concept to completion"
+    "lang":{
+      "en": {
+        "title": "Commitment to Excellence",
+        "description": "High-quality results delivered on time and within budget, from concept to completion"
+      },
+      "uk":{
+        "title": "Відданість досконалості",
+        "description": "Високоякісні результати, що доставляються вчасно і в межах бюджету, від концепції до завершення"
+      },
+      "ru": {
+        "title": "Приверженность совершенству",
+        "description": "Высококачественные результаты, предоставленные вовремя и в рамках бюджета, от концепции до завершения"
+      }
+    }
   }
 ]

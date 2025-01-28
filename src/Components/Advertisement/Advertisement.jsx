@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import css from './Advertisement.module.css';
 
 function Advertisement() {
+    const { t } = useTranslation();
+    
     return (
             <section className={css.section}>
                 <link
@@ -11,16 +14,16 @@ function Advertisement() {
                 <div className={css["marquee"]}>
                     <div className={css["marquee__inner"]}>
                         <p className={css["marquee__line"]}>
-                            Ready to meet  
-                            <span className={css["marquee__line-accent"]}> your next </span>
-                            developer?
-                            <span className={css["marquee__line-accent"]}> Let’s connect! </span>
+                            {t('advertisement.line')}  
+                            <span className={css["marquee__line-accent"]}>  {t('advertisement.line_accent1')}   </span>
+                             {t('advertisement.line_accent2')}
+                            <span className={css["marquee__line-accent"]}>  {t('advertisement.line_accent3')} </span>
                         </p>
                         <p className={css["marquee__line"]}>
-                            Ready to meet  
-                            <span className={css["marquee__line-accent"]}> your next </span>
-                            developer?
-                            <span className={css["marquee__line-accent"]}> Let’s connect! </span>
+                              {t('advertisement.line')}   
+                            <span className={css["marquee__line-accent"]}> {t('advertisement.line_accent1')} </span>
+                            {t('advertisement.line_accent2')}
+                            <span className={css["marquee__line-accent"]}> {t('advertisement.line_accent3')}</span>
                         </p>
                     </div>
                 </div>

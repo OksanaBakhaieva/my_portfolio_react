@@ -13,25 +13,13 @@
 .dropdown_list {
   display: none;
 }
-.text {
-  font-size: 10px;
-  text-align: center;
-}
-.span {
-  text-transform: uppercase;
-}
-.span:first-child {
-  text-decoration: underline;
-}
+
 .phone {
   display: none;
 }
 @media screen and (min-width: 768px) {
   .top {
     padding: 0 32px;
-  }
-  .text {
-    font-size: 14px;
   }
 }
 
@@ -40,23 +28,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .dropdown_list {
-    display: flex;
-    gap: 10px;
-    padding: 0;
-  }
-  .earth {
-    fill: var(--border-color-light);
-  }
-  #choose-language {
-    border: none;
-    color: var(--border-color-light);
-    background-color: var(--green-light);
-    padding: 0;
-  }
-  .text {
-    font-size: 16px;
   }
   .phone {
     display: flex;

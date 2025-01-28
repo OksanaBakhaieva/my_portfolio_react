@@ -18,7 +18,7 @@
     "text_extra": "The approach combines creativity and functionality to develop engaging, user-friendly solutions that ensure a standout presence in the digital landscape."
   },
   "contactMe": {
-    "phone": "Talk to me",
+    "phone": "Give me a call",
     "email": "Mail me now"
   },
   "footer": {
@@ -28,13 +28,19 @@
   },
   "headerTop": {
     "availiable": "Availiable  in",
-    "span_en": "English",
-    "span_ua": "Ukrainain",
+    "span_en": "English  /",
+    "span_ua": "Ukrainain  /",
     "span_ru": "Russian"
   },
   "hero": {
     "title1": "Full-Stack Developer:",
     "title2": "Turning Ideas into Code"
+  },
+  "nav": {
+    "link1": "About me",
+    "link2": "My projects",
+    "link3": "Why create with me?",
+    "link4": "Contacts"
   },
   "projects": {
     "quote": "The only way to do great work is to love what you do. - Steve Jobs"

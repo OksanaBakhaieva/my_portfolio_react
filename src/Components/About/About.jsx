@@ -1,22 +1,19 @@
+import { useTranslation } from 'react-i18next';
 import img from '../../img/about-me/IMG_2597-1.jpg'
 import Title from '../Title/Title';
 import css from './About.module.css';
 
 function About() {
+    const { t } = useTranslation();
+                    
     return (
         <section className={css.section} id="about">
             <div className={css.container}>
                     <div className={css.text_wrapper}>
-                        <Title variant='primary'>About Me</Title>
-                        <p className={css.text1}>
-                            Motivated and adaptable software developer with a strong passion for building innovative web and mobile applications. 
-                        </p>
-                        <p className={css.text1}>
-                            Experienced with technologies such as ReactJS, Node.js, PHP, MySQL, JavaScript, TypeScript, CSS and Tailwind CSS, I enjoy solving real-world problems and turning ideas into practical solutions.
-                        </p>
-                        <p className={css.text2}>
-                            Eager to learn and grow, I am excited to contribute to a collaborative team and take on new challenges while developing my skills.
-                        </p>
+                        <Title variant='primary'>{t('about.title')}</Title>
+                        <p className={css.text1}>{t('about.text1')}</p>
+                        <p className={css.text1}>{t('about.text2')}</p>
+                        <p className={css.text2}>{t('about.text3')}</p>
                     </div>
                     <img className={css.img} src={img} alt="my-photo2" width="200" />
             </div>    
