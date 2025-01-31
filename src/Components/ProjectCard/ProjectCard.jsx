@@ -1,16 +1,15 @@
 import css from './ProjectCard.module.css';
 
-function ProjectCard({name, img, desc, url }) {
+function ProjectCard({name, desc, url }) {
     return (
         <>
-            <a href={url} className={css.link} target="_blank">
-                <img src={img} alt="Web Page of Photography School" className={css.item_img} width="230" />
-                <h3 className={css.item_title}>{name}</h3>
-            </a>
+            <div className={css.link}>
+                <iframe src={url} className={css.project_preview}></ iframe>
+                <a href={url} className={css.item_title} target="_blank">{name}</a>
+            </div>
             <p className={css.item_description}>{desc}</p>
-
+           
         </>
-       
     )
 }
 
