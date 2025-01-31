@@ -1,8 +1,8 @@
 {
   "about": {
     "title": "About Me",
-    "text1": "Motivated and adaptable software developer with a strong passion for building innovative web and mobile applications.",
-    "text2": "Experienced with technologies such as ReactJS, Node.js, PHP, MySQL, JavaScript, TypeScript, CSS and Tailwind CSS, I enjoy solving real-world problems and turning ideas into practical solutions.",
+    "text1": "A UK-based Software Developer with a master’s degree and 14 years of experience in Engineering and Team Leadership. Due to the war in Ukraine, I began transitioning to Software Development, applying my analytical mindset and problem-solving abilities to this new field.",
+    "text2": "I am currently building my skills in JavaScript, TypeScript, ReactJS, Node.js, PHP, Laravel, HTML, CSS, TailwindCSS and I have recently started learning Next.js. I also have practical experience working with MySQL, MongoDB, APIs, GitHub, Figma, Trello, command-line tools, object-oriented programming (OOP), unit testing, accessibility, and SEO. My goal is to develop the expertise needed to contribute effectively to my future team, focusing on the technologies and frameworks most relevant to their needs.",
     "text3": "Eager to learn and grow, I am excited to contribute to a collaborative team and take on new challenges while developing my skills."
   },
    "advertisement": {
@@ -12,7 +12,7 @@
     "line_accent3": "Let’s connect!"
   },
   "benefits": {
-    "quote": "Your ideas. My expertise",
+    "quote": "Your ideas - my execution",
     "title": "Why create with me?",
     "text": "With a focus on delivering custom digital experiences, each project is tailored to bring unique visions to life.",
     "text_extra": "The approach combines creativity and functionality to develop engaging, user-friendly solutions that ensure a standout presence in the digital landscape."
@@ -37,12 +37,13 @@
     "title2": "Turning Ideas into Code"
   },
   "nav": {
-    "link1": "About me",
-    "link2": "My projects",
-    "link3": "Why create with me?",
+    "link1": "About Me",
+    "link2": "My Projects",
+    "link3": "Why Create with Me?",
     "link4": "Contacts"
   },
   "projects": {
-    "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+    "quote": "The only way to do great work is to love what you do. - Steve Jobs",
+    "title": "My Projects"
   }
 }

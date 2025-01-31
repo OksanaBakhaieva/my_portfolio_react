@@ -7,10 +7,16 @@
   margin-bottom: 16px;
   text-align: center;
 }
-
+.quote_cyrillic {
+  font-family: var(--ff-cyrillic);
+  font-size: 20px;
+}
 @media screen and (min-width: 768px) {
   .quote {
     font-size: 44px;
+  }
+  .quote_cyrillic {
+    font-size: 32px;
   }
 }
 
@@ -18,10 +24,16 @@
   .quote {
     font-size: 52px;
   }
+  .quote_cyrillic {
+    font-size: 48px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .quote {
     font-size: 60px;
+  }
+  .quote_cyrillic {
+    font-size: 52px;
   }
 }

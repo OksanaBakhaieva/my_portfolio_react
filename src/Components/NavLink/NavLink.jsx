@@ -1,9 +1,17 @@
+import clsx from 'clsx';
 import css from './NavLink.module.css';
 
-function NavLink({ text, href }) {
+function NavLink({ text, href, variant}) {
+    const NavLinkClasses = clsx(css.nav_link,
+        {
+            [css.header]: variant === 'header',
+            [css.modal]: variant === 'modal',
+            [css.footer]: variant === 'footer'
+        }
+    );
     return (
         <>
-            <a className={css.nav_link} href={href}>{text}</a>
+            <a className={NavLinkClasses} href={href}>{text}</a>
         </>
     )
 }

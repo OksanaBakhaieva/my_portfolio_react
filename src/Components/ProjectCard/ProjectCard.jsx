@@ -1,8 +1,6 @@
 import css from './ProjectCard.module.css';
 
-function ProjectCard({
-    project: { name, img, desc, url },
-}) {
+function ProjectCard({name, img, desc, url }) {
     return (
         <>
             <a href={url} className={css.link} target="_blank">

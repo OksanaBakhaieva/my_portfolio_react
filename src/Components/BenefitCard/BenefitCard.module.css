@@ -17,7 +17,6 @@
   box-shadow: 2px 2px 2px 2px var(--green-dark);
   color: var(--plyr-color-main);
 }
-
 @media screen and (min-width: 768px) {
   .item_title {
     font-size: 18px;

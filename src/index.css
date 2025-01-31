@@ -4,6 +4,7 @@
   --content-width: 1470px;
   --ff-manrope: "Manrope", san-serif;
   --ff-ernestandemily: "Qwitcher Grypen", cursive;
+  --ff-cyrillic: "Great Vibes";
   --green-very-light: #c5ccca;
   --green-light: #719e8b;
   --green-medium: #4b5e5b;
@@ -13,7 +14,6 @@
   --grey-light: #f8f8f8;
   --grey-medium: #666;
   --grey-dark: #252525;
-  --grey-darkest: #222;
   --border-color: #ddd;
   --border-color-light: #e9e9e9;
   --red: #d61829;

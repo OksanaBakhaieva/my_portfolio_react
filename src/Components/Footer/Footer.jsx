@@ -1,3 +1,4 @@
+import Nav from '../Nav/Nav';
 import css from './Footer.module.css';
 
 function Footer() {
@@ -34,13 +35,9 @@ function Footer() {
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div className={css.nav}>
-                    <a className={css.nav_link} href="#about" name="about">About me</a>
-                    <a className={css.nav_link} href="#portfolio" name="projects">Projects</a>
-                    <a className={css.nav_link} href="#benefits" name="benefits">Why create with me?</a>    
-                </div>
-                <p className={css.copyright}>&copy; Copyright 2024</p>
+            </div>
+            <Nav variant='footer'/>
+            <p className={css.copyright}>&copy; Copyright 2024</p>
             </footer>
     )
 }
