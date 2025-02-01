@@ -3,23 +3,28 @@
   margin: 0 auto;
   background-color: var(--green-light);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: var(--border-color-light);
   height: 46px;
   padding-left: 16px;
   padding-right: 16px;
 }
-.dropdown_list {
-  display: none;
-}
-
 .phone {
   display: none;
 }
+.earth {
+  width: 14px;
+  fill: var(--border-color-light);
+}
+
 @media screen and (min-width: 768px) {
   .top {
     padding: 0 32px;
+  }
+  .earth {
+    width: 16px;
+    fill: var(--border-color-light);
   }
 }
 
@@ -28,6 +33,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .earth {
+    width: 18px;
+    fill: var(--border-color-light);
   }
   .phone {
     display: flex;

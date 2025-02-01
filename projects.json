@@ -2,7 +2,7 @@
       {
         "id": "1",
         "name": "Project Manager App",
-        "img": "/Project_Manager.jpg",
+        "img": "/img/projects/Project_Manager.jpg",
         "lang": {
           "en": {
             "desc": "As part of a backend development team of five, I implemented server-side functionality using PHP and MySQL, applied Object-Oriented Programming (OOP) principles, and developed unit tests to ensure the reliability of the Project Manager App, a tool to manage clients, projects, and tasks efficiently"
@@ -19,7 +19,7 @@
       {
         "id": "2",
         "name": "Email Client App",
-        "img": "/projects/Email_Client.jpg",
+        "img": "/img/projects/Email_Client.jpg",
         "lang": {
           "en": {
             "desc": "I worked as part of a team to develop an app that allows clients to manage their inbox, including reading, composing, and deleting emails. Role: Frontend Developer - Built the user interface with ReactJS and TailwindCSS, and integrated API functionality for email management"
@@ -53,7 +53,7 @@
       {
         "id": "4",
         "name": "Aqua Track App",
-        "img": "./public/img/projects/Aqua_Track.jpg",
+        "img": "/img/projects/Aqua_Track.jpg",
         "lang": {
           "en": {
             "desc": "Working as part of a team of eight, I contributed to developing of a web application for water tracking and management. In my role as a backend developer, I implemented user authentication features, including signup, signin, and logout, using Node.js, MongoDB, and Swagger for API documentation, while applying Object-Oriented Programming (OOP) principles"
@@ -70,7 +70,7 @@
       {
         "id": "5",
         "name": "Portfolio for a Software Developer",
-        "img": "./src/img/projects/Jeff's_Portfolio.jpg",
+        "img": "/img/projects/Jeff's_Portfolio.jpg",
         "lang": {
           "en": {
           "desc": "I worked with a team to develop a responsive website  highlighting a developer's work experience and skills, incorporating transform effects and a modal menu. As Frontend Developer, I built the Covers and Benefits sections using HTML, CSS, and JavaScript"
@@ -87,7 +87,7 @@
       {
         "id": "6",
         "name": "WebStudio",
-        "img": "./src/img/projects/Web_Studio.jpg",
+        "img": "/img/projects/Web_Studio.jpg",
           "lang": {
           "en": {
             "desc": "My first project: a WebStudio landing page built with HTML and CSS, featuring responsive design and optimised, retina-ready (high-DPI) images for high-resolution displays"

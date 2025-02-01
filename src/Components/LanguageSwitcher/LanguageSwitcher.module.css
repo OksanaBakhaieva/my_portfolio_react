@@ -3,9 +3,6 @@
   margin: 0 auto;
   gap: 16px;
 }
-.earth {
-  display: none;
-}
 .text {
   font-size: 10px;
   align-items: center;
@@ -32,10 +29,6 @@
 @media screen and (min-width: 768px) {
   .text {
     font-size: 14px;
-  }
-  .earth {
-    display: block;
-    fill: var(--border-color-light);
   }
 }
 @media screen and (min-width: 1024px) {
