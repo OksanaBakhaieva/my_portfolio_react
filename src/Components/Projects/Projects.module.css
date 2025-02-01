@@ -34,10 +34,6 @@
   width: 100%;
   transition: all 250ms linear;
 }
-/* .list .item:hover,
-.list .item:focus {
-  transform: scale(1.05);
-} */
 
 @media screen and (min-width: 480px) {
   .text {
