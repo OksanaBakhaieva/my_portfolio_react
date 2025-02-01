@@ -8,10 +8,7 @@ function Footer() {
                     <p>Oksana Bakhaieva*</p>
                 </a>
                 <div className={css.wrapper}>
-                    <a className={css.phone} href="tel:447748xxxxxx">
-                        + (44) 77 48 300 xxx
-                    </a>
-                    <a className={css.email} href="mailto: example@gmail.com">obakhaieva@gmail.com</a>
+                   
                     <ul className={css.socials}>
                         <li>
                             <a className={css.socials_link} href="tel:380966402872" target="_blank">

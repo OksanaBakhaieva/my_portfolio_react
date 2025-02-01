@@ -25,6 +25,7 @@
 }
 .item {
   display: grid;
+  grid-template-columns: auto;
   justify-items: center;
   border: 1px solid var(--green-light);
   border-radius: 12px;
