@@ -7,7 +7,7 @@ function Hero() {
     return (
             <section className={css.section}> 
                 <div className={css.container}>
-                <h1 className={css.title}>{t('hero.title1')}<br />{t('hero.title2')}</h1>
+                <h1 className={css.title}><br></br>{t('hero.title1')}<br />{t('hero.title2')}</h1>
                 </div>
             </section>
     )

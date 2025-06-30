@@ -100,5 +100,23 @@
           }
         },
         "url":"https://oksanabakhaieva.github.io/goit-markup-hw-06/"
+      },
+      {
+        "id": "7",
+        "name": "Transforming Creatively",
+        "img": "/img/projects/Transforming_Creatively.png",
+        "lang": {
+          "en": {
+            "desc": "My first commercial website, built with WordPress. It’s for a therapist and coach offering emotional and psychosomatic healing, life transition support, and creative unlocking to help clients align with their highest potential"
+          },
+          "uk": {
+            "desc": "Мій перший комерційний вебсайт, виконаний на WordPress. Сайт терапевта і коуча, який пропонує емоційне та психосоматичне лікування, підтримку у життєвих переходах та допомогу у розкритті творчого потенціалу для досягнення найвищих можливостей"
+          },
+          "ru": {
+            "desc": "Мой первый коммерческий вебсайт, выполненный на WordPress. Сайт терапевта и коуча, предлагающего эмоциональное и психосоматическое исцеление, поддержку при жизненных переходах и помощь в раскрытии творческого потенциала для достижения наивысших возможностей"
+          }
+        },
+        "url": "https://transformingcreatively.com/"
       }
+      
 ]
