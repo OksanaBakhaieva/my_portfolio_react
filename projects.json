@@ -1,122 +1,121 @@
-  [
-      {
-        "id": "1",
-        "name": "Project Manager App",
-        "img": "/img/projects/Project_Manager.jpg",
-        "lang": {
-          "en": {
-            "desc": "As part of a backend development team of five, I implemented server-side functionality using PHP and MySQL, applied Object-Oriented Programming (OOP) principles, and developed unit tests to ensure the reliability of the Project Manager App, a tool to manage clients, projects, and tasks efficiently"
-          },
-          "uk": {
-            "desc": "У складі команди бекенд-розробників із п'яти осіб я реалізувала серверну функціональність за допомогою PHP та MySQL, застосовувала принципи об'єктно-орієнтованого програмування (ООП) та розробляла модульні тести для забезпечення надійності програми Project Manager App — інструменту для ефективного управління клієнтами, проєктами та завданнями"
-          },
-          "ru": {
-            "desc": "В составе команды бэкенд-разработчиков из пяти человек я реализовала серверную функциональность с использованием PHP и MySQL, применяла принципы объектно-ориентированного программирования (ООП) и разрабатывала модульные тесты для обеспечения надежности приложения Project Manager App — инструмента для эффективного управления клиентами, проектами и задачами"
-          }
-        },
-        "url":"https://2024-dart-frog-project-management.dev.io-academy.uk/"
+[
+  {
+    "id": "1",
+    "name": "Transforming Creatively",
+    "img": "/img/projects/Transforming_Creatively.png",
+    "lang": {
+      "en": {
+        "desc": "My first commercial website, built with WordPress. It’s for a therapist and coach offering emotional and psychosomatic healing, life transition support, and creative unlocking to help clients align with their highest potential"
       },
-      {
-        "id": "2",
-        "name": "Email Client App",
-        "img": "/img/projects/Email_Client.jpg",
-        "lang": {
-          "en": {
-            "desc": "I worked as part of a team to develop an app that allows clients to manage their inbox, including reading, composing, and deleting emails. Role: Frontend Developer - Built the user interface with ReactJS and TailwindCSS, and integrated API functionality for email management"
-          },
-          "uk": {
-            "desc": "Я працювала у складі команди над розробкою застосунку, який дозволяє клієнтам керувати своєю поштовою скринькою, включаючи читання, створення та видалення електронних листів. Роль: frontend-розробник — створила інтерфейс користувача за допомогою ReactJS та TailwindCSS, а також інтегрувала API для керування електронною поштою"
-          },
-          "ru": {
-            "desc": "Я работала в составе команды над разработкой приложения, которое позволяет клиентам управлять своей почтой, включая чтение, создание и удаление писем. Роль: frontend-разработчик — создала пользовательский интерфейс с использованием ReactJS и TailwindCSS, а также интегрировала API для управления электронной почтой"
-          }
-        },
-        "url":"https://2024-red-pandas-email-client.dev.io-academy.uk/"
+      "uk": {
+        "desc": "Мій перший комерційний вебсайт, виконаний на WordPress. Сайт терапевта і коуча, який пропонує емоційне та психосоматичне лікування, підтримку у життєвих переходах та допомогу у розкритті творчого потенціалу для досягнення найвищих можливостей"
       },
-      {
-        "id": "3",
-        "name": "Focus Frame",
-        "img": "/img/projects/Photography_School.jpg",
-        "lang": {
-          "en": {
-            "desc": "I collaborated with a team to create a responsive website for a photography school, designed to showcase its services and offerings. As a Frontend Developer, I built the Header section and implemented the modal menu using HTML, CSS, and JavaScript"
-          },
-          "uk": {
-            "desc": "Я співпрацювала з командою над створенням адаптивного вебсайту для школи фотографії, розробленого для демонстрації її послуг та пропозицій. Як frontend-розробниця, я створила секцію заголовка (Header) та реалізувала модальне меню за допомогою HTML, CSS та JavaScript"
-          },
-          "ru": {
-            "desc": "Я сотрудничала с командой над созданием адаптивного вебсайта для школы фотографии, разработанного для демонстрации её услуг и предложений. В роли frontend-разработчицы я создала секцию заголовка (Header) и реализовала модальное меню с использованием HTML, CSS и JavaScript"
-          }
-        },
-        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
-      },
-      {
-        "id": "4",
-        "name": "Aqua Track App",
-        "img": "/img/projects/Aqua_Track.jpg",
-        "lang": {
-          "en": {
-            "desc": "Working as part of a team of eight, I contributed to developing of a web application for water tracking and management. In my role as a backend developer, I implemented user authentication features, including signup, signin, and logout, using Node.js, MongoDB, and Swagger for API documentation, while applying Object-Oriented Programming (OOP) principles"
-          },
-          "uk": {
-            "desc": "Працюючи у команді із восьми осіб, я долучилася до розробки вебзастосунку для відстеження та управління водними ресурсами. У ролі backend-розробниці я реалізувала функції автентифікації користувачів, включно з реєстрацією, входом та виходом, використовуючи Node.js, MongoDB та Swagger для документації API, застосовуючи принципи Об’єктно-орієнтованого програмування (OOP)"
-          },
-          "ru": {
-            "desc": "Работая в команде из восьми человек, я участвовала в разработке веб-приложения для отслеживания и управления водными ресурсами. В своей роли backend-разработчицы я реализовала функции аутентификации пользователей, включая регистрацию, вход и выход, с использованием Node.js, MongoDB и Swagger для документации API, применяя принципы объектно-ориентированного программирования (OOP)"
-          }
-        },
-        "url":"https://aquahackers-project.vercel.app/"
-      },
-      {
-        "id": "5",
-        "name": "Portfolio for a Software Developer",
-        "img": "/img/projects/Jeff's_Portfolio.jpg",
-        "lang": {
-          "en": {
-          "desc": "I worked with a team to develop a responsive website  highlighting a developer's work experience and skills, incorporating transform effects and a modal menu. As Frontend Developer, I built the Covers and Benefits sections using HTML, CSS, and JavaScript"
-          },
-          "uk": {
-            "desc": "Я працювала з командою над розробкою адаптивного вебсайту, який демонструє досвід роботи та навички розробника, з використанням ефектів трансформації та модального меню. У ролі Frontend-розробниці я створила розділи «Обкладинки» та «Переваги», використовуючи HTML, CSS і JavaScript"
-          },
-          "ru": {
-            "desc": "Я работала с командой над разработкой адаптивного вебсайта, демонстрирующего опыт работы и навыки разработчика, с использованием эффектов трансформации и модального меню. В роли Frontend-разработчицы я создала разделы «Обложки» и «Преимущества», используя HTML, CSS и JavaScript"
-          }
-        },
-        "url":"https://kkvaldys.github.io/ProfIT-project-js/"
-      },
-      {
-        "id": "6",
-        "name": "WebStudio",
-        "img": "/img/projects/Web_Studio.jpg",
-          "lang": {
-          "en": {
-            "desc": "My first project: a WebStudio landing page built with HTML and CSS, featuring responsive design and optimised, retina-ready (high-DPI) images for high-resolution displays"
-          },
-          "uk": {
-            "desc": "Мій перший проєкт: посадкова сторінка WebStudio, створена за допомогою HTML і CSS, з адаптивним дизайном та оптимізованими зображеннями високої чіткості (retina-ready) для екранів з високою роздільною здатністю"
-          },
-          "ru": {
-            "desc": "Мой первый проект: лендинг WebStudio, созданный с использованием HTML и CSS, с адаптивным дизайном и оптимизированными изображениями высокой четкости (retina-ready) для экранов с высоким разрешением"
-          }
-        },
-        "url":"https://oksanabakhaieva.github.io/goit-markup-hw-06/"
-      },
-      {
-        "id": "7",
-        "name": "Transforming Creatively",
-        "img": "/img/projects/Transforming_Creatively.png",
-        "lang": {
-          "en": {
-            "desc": "My first commercial website, built with WordPress. It’s for a therapist and coach offering emotional and psychosomatic healing, life transition support, and creative unlocking to help clients align with their highest potential"
-          },
-          "uk": {
-            "desc": "Мій перший комерційний вебсайт, виконаний на WordPress. Сайт терапевта і коуча, який пропонує емоційне та психосоматичне лікування, підтримку у життєвих переходах та допомогу у розкритті творчого потенціалу для досягнення найвищих можливостей"
-          },
-          "ru": {
-            "desc": "Мой первый коммерческий вебсайт, выполненный на WordPress. Сайт терапевта и коуча, предлагающего эмоциональное и психосоматическое исцеление, поддержку при жизненных переходах и помощь в раскрытии творческого потенциала для достижения наивысших возможностей"
-          }
-        },
-        "url": "https://transformingcreatively.com/"
+      "ru": {
+        "desc": "Мой первый коммерческий вебсайт, выполненный на WordPress. Сайт терапевта и коуча, предлагающего эмоциональное и психосоматическое исцеление, поддержку при жизненных переходах и помощь в раскрытии творческого потенциала для достижения наивысших возможностей"
       }
-      
+    },
+    "url": "https://transformingcreatively.com/"
+  },
+  {
+    "id": "2",
+    "name": "Project Manager App",
+    "img": "/img/projects/Project_Manager.jpg",
+    "lang": {
+      "en": {
+        "desc": "As part of a backend development team of five, I implemented server-side functionality using PHP and MySQL, applied Object-Oriented Programming (OOP) principles, and developed unit tests to ensure the reliability of the Project Manager App, a tool to manage clients, projects, and tasks efficiently"
+      },
+      "uk": {
+        "desc": "У складі команди бекенд-розробників із п'яти осіб я реалізувала серверну функціональність за допомогою PHP та MySQL, застосовувала принципи об'єктно-орієнтованого програмування (ООП) та розробляла модульні тести для забезпечення надійності програми Project Manager App — інструменту для ефективного управління клієнтами, проєктами та завданнями"
+      },
+      "ru": {
+        "desc": "В составе команды бэкенд-разработчиков из пяти человек я реализовала серверную функциональность с использованием PHP и MySQL, применяла принципы объектно-ориентированного программирования (ООП) и разрабатывала модульные тесты для обеспечения надежности приложения Project Manager App — инструмента для эффективного управления клиентами, проектами и задачами"
+      }
+    },
+    "url": "https://2024-dart-frog-project-management.dev.io-academy.uk/"
+  },
+  {
+    "id": "3",
+    "name": "Email Client App",
+    "img": "/img/projects/Email_Client.jpg",
+    "lang": {
+      "en": {
+        "desc": "I worked as part of a team to develop an app that allows clients to manage their inbox, including reading, composing, and deleting emails. Role: Frontend Developer - Built the user interface with ReactJS and TailwindCSS, and integrated API functionality for email management"
+      },
+      "uk": {
+        "desc": "Я працювала у складі команди над розробкою застосунку, який дозволяє клієнтам керувати своєю поштовою скринькою, включаючи читання, створення та видалення електронних листів. Роль: frontend-розробник — створила інтерфейс користувача за допомогою ReactJS та TailwindCSS, а також інтегрувала API для керування електронною поштою"
+      },
+      "ru": {
+        "desc": "Я работала в составе команды над разработкой приложения, которое позволяет клиентам управлять своей почтой, включая чтение, создание и удаление писем. Роль: frontend-разработчик — создала пользовательский интерфейс с использованием ReactJS и TailwindCSS, а также интегрировала API для управления электронной почтой"
+      }
+    },
+    "url": "https://2024-red-pandas-email-client.dev.io-academy.uk/"
+  },
+  {
+    "id": "4",
+    "name": "Focus Frame",
+    "img": "/img/projects/Photography_School.jpg",
+    "lang": {
+      "en": {
+        "desc": "I collaborated with a team to create a responsive website for a photography school, designed to showcase its services and offerings. As a Frontend Developer, I built the Header section and implemented the modal menu using HTML, CSS, and JavaScript"
+      },
+      "uk": {
+        "desc": "Я співпрацювала з командою над створенням адаптивного вебсайту для школи фотографії, розробленого для демонстрації її послуг та пропозицій. Як frontend-розробниця, я створила секцію заголовка (Header) та реалізувала модальне меню за допомогою HTML, CSS та JavaScript"
+      },
+      "ru": {
+        "desc": "Я сотрудничала с командой над созданием адаптивного вебсайта для школы фотографии, разработанного для демонстрации её услуг и предложений. В роли frontend-разработчицы я создала секцию заголовка (Header) и реализовала модальное меню с использованием HTML, CSS и JavaScript"
+      }
+    },
+    "url": "https://viktoriiaolex.github.io/code-hunters-project/"
+  },
+  {
+    "id": "5",
+    "name": "Aqua Track App",
+    "img": "/img/projects/Aqua_Track.jpg",
+    "lang": {
+      "en": {
+        "desc": "Working as part of a team of eight, I contributed to developing of a web application for water tracking and management. In my role as a backend developer, I implemented user authentication features, including signup, signin, and logout, using Node.js, MongoDB, and Swagger for API documentation, while applying Object-Oriented Programming (OOP) principles"
+      },
+      "uk": {
+        "desc": "Працюючи у команді із восьми осіб, я долучилася до розробки вебзастосунку для відстеження та управління водними ресурсами. У ролі backend-розробниці я реалізувала функції автентифікації користувачів, включно з реєстрацією, входом та виходом, використовуючи Node.js, MongoDB та Swagger для документації API, застосовуючи принципи Об’єктно-орієнтованого програмування (OOP)"
+      },
+      "ru": {
+        "desc": "Работая в команде из восьми человек, я участвовала в разработке веб-приложения для отслеживания и управления водными ресурсами. В своей роли backend-разработчицы я реализовала функции аутентификации пользователей, включая регистрацию, вход и выход, с использованием Node.js, MongoDB и Swagger для документации API, применяя принципы объектно-ориентированного программирования (OOP)"
+      }
+    },
+    "url": "https://aquahackers-project.vercel.app/"
+  },
+  {
+    "id": "6",
+    "name": "Portfolio for a Software Developer",
+    "img": "/img/projects/Jeff's_Portfolio.jpg",
+    "lang": {
+      "en": {
+        "desc": "I worked with a team to develop a responsive website  highlighting a developer's work experience and skills, incorporating transform effects and a modal menu. As Frontend Developer, I built the Covers and Benefits sections using HTML, CSS, and JavaScript"
+      },
+      "uk": {
+        "desc": "Я працювала з командою над розробкою адаптивного вебсайту, який демонструє досвід роботи та навички розробника, з використанням ефектів трансформації та модального меню. У ролі Frontend-розробниці я створила розділи «Обкладинки» та «Переваги», використовуючи HTML, CSS і JavaScript"
+      },
+      "ru": {
+        "desc": "Я работала с командой над разработкой адаптивного вебсайта, демонстрирующего опыт работы и навыки разработчика, с использованием эффектов трансформации и модального меню. В роли Frontend-разработчицы я создала разделы «Обложки» и «Преимущества», используя HTML, CSS и JavaScript"
+      }
+    },
+    "url": "https://kkvaldys.github.io/ProfIT-project-js/"
+  },
+  {
+    "id": "7",
+    "name": "WebStudio",
+    "img": "/img/projects/Web_Studio.jpg",
+    "lang": {
+      "en": {
+        "desc": "My first project: a WebStudio landing page built with HTML and CSS, featuring responsive design and optimised, retina-ready (high-DPI) images for high-resolution displays"
+      },
+      "uk": {
+        "desc": "Мій перший проєкт: посадкова сторінка WebStudio, створена за допомогою HTML і CSS, з адаптивним дизайном та оптимізованими зображеннями високої чіткості (retina-ready) для екранів з високою роздільною здатністю"
+      },
+      "ru": {
+        "desc": "Мой первый проект: лендинг WebStudio, созданный с использованием HTML и CSS, с адаптивным дизайном и оптимизированными изображениями высокой четкости (retina-ready) для экранов с высоким разрешением"
+      }
+    },
+    "url": "https://oksanabakhaieva.github.io/goit-markup-hw-06/"
+  }
 ]
